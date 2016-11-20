@@ -18,6 +18,7 @@
     "url": "git+https://github.com/bsansouci/sdl2.git"
   },
   "dependencies": {
-    "unzip": "^0.1.11"
+    "unzip": "^0.1.11",
+    "dependency-env": "https://github.com/npm-ml/dependency-env.git"
   }
 }
