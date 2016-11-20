@@ -1,0 +1,23 @@
+{
+  "name": "sdl2",
+  "version": "2.0.5",
+  "description": "npm-installable version of SDL2.",
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "exportedEnvVars": {
+    "PKG_CONFIG_PATH": {
+      "global": true,
+      "resolveAsRelativePath": true,
+      "globalCollisionBehavior": "joinPath",
+      "val": "./src"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansouci/sdl2.git"
+  },
+  "dependencies": {
+    "unzip": "^0.1.11"
+  }
+}
